@@ -1,0 +1,9 @@
+# ANOTAÇÕES
+
+1º DA NOME AS CLASSES:
+ - Para que possa pegar as CLASSES 
+   e estilizar no "css".
+
+2º BODY:
+ - Segura todo o conteúdo.
+ 

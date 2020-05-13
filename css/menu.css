@@ -1,0 +1,51 @@
+.all-menu {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.main-menu {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.header-menu {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.search input {
+    background-image: url("../image/iconeLupa.png");
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 190px;
+    padding: 12px;
+    margin-top: 7px;
+    background-position: 96%;
+    border: 1px solid #d5d5d5;
+}
+
+.search {
+    width: 30%;
+    float: right;
+}

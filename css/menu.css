@@ -17,7 +17,7 @@
 }
 
 .menu {
-    width: 70%;
+    width: 66%;
     float: left;
 }
 
@@ -25,6 +25,15 @@
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 45px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #68b9c4;
+}
+
+.menu ul li a:hover {
+    color: #68b9c4;
 }
 
 .menu ul li a {
@@ -46,6 +55,7 @@
 }
 
 .search {
+    text-align: center;
     width: 30%;
-    float: right;
+    float: left;
 }

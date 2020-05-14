@@ -44,7 +44,7 @@
 }
 
 .search input {
-    background-image: url("../image/iconeLupa.png");
+    background-image: url('../image/iconeLupa.png');
     background-repeat: no-repeat;
     height: 36px;
     width: 190px;

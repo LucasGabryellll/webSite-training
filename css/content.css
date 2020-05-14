@@ -1,0 +1,76 @@
+.block-text {
+    margin-top: 3em;
+}
+
+.text-contrast {
+    text-align: center;
+}
+
+.text-contrast strong {
+    color: #646464;
+}
+
+.text-contrast h1 {
+    font-size: 30px;
+    color: #808080;
+    text-transform: uppercase;
+}
+
+.text-contrast p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.image-coll {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.block-image img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.block-image {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.block-image b, p {
+    text-align: left;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.block-images-text {
+    background-color: #eeeeee;
+}
+
+.block-images-text:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 50px;
+    background: #ffffff;
+    background-image: url('../image/seta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.block-images-text:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}

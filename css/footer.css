@@ -1,0 +1,18 @@
+.logo {
+  display: block;
+  float: left;
+  width: 21%;
+  text-align: center;
+}
+
+.logo img {
+  cursor: pointer;
+  margin: 0 auto;
+  padding-top: 1em;
+  vertical-align: middle;
+}
+
+.logo img:hover {
+  margin-top: 5px!important;
+  position: relative;
+}

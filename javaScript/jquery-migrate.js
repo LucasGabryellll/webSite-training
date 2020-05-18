@@ -16,8 +16,8 @@ jQuery.migrateMute === void 0 && (jQuery.migrateMute = !0),
         } var i = {};
         e.migrateWarnings = [], !e.migrateMute && t.console && t.console.log && t.console.log("JQMIGRATE: Logging is active"),
             e.migrateTrace === n && (e.migrateTrace = !0), e.migrateReset = function () {
-            i = {},
-                e.migrateWarnings.length = 0
+                i = {},
+                    e.migrateWarnings.length = 0
             },
             "BackCompat" === document.compatMode && r("jQuery is not compatible with Quirks Mode");
         var o = e("<input/>", { size: 1 }).attr("size") && e.attrFn,
@@ -105,8 +105,8 @@ jQuery.migrateMute === void 0 && (jQuery.migrateMute = !0),
                 w.apply(this, arguments)
         },
             e.clean || (e.clean = function (t, a, i, o) {
-            a = a || document, a = !a.nodeType && a[0] || a, a = a.ownerDocument || a,
-                r("jQuery.clean() is deprecated");
+                a = a || document, a = !a.nodeType && a[0] || a, a = a.ownerDocument || a,
+                    r("jQuery.clean() is deprecated");
                 var s, u, c, l, d = [];
                 if (e.merge(d, e.buildFragment(t, a).childNodes), i) for (c = function (e) { return !e.type || j.test(e.type) ? o ? o.push(e.parentNode ? e.parentNode.removeChild(e) : e) : i.appendChild(e) : n },
                     s = 0; null != (u = d[s]); s++)e.nodeName(u, "script") && c(u) || (i.appendChild(u),
@@ -129,8 +129,8 @@ jQuery.migrateMute === void 0 && (jQuery.migrateMute = !0),
         e.event.props && "attrChange" !== e.event.props[0] && e.event.props.unshift("attrChange", "attrName", "relatedNode", "srcElement"),
             e.event.dispatch && a(e.event, "handle", e.event.dispatch, "jQuery.event.handle is undocumented and deprecated"),
             e.event.add = function (e, t, n, a, i) {
-            e !== document && C.test(t) && r("AJAX events should be attached to document: " + t),
-                Q.call(this, e, A(t || ""), n, a, i)
+                e !== document && C.test(t) && r("AJAX events should be attached to document: " + t),
+                    Q.call(this, e, A(t || ""), n, a, i)
             }, e.event.remove = function (e, t, n, r, a) { x.call(this, e, A(t) || "", n, r, a) },
             e.fn.error = function () {
                 var e = Array.prototype.slice.call(arguments, 0);

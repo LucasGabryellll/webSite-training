@@ -7,3 +7,6 @@
 2º BODY:
  - Segura todo o conteúdo.
  
+
+CSS TRANSITION: 
+ - Para colocar efeitos

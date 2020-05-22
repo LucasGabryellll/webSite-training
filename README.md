@@ -7,7 +7,8 @@
  - Como usar os componentes "html" e "css" para estilizar os mesmos.
  - Não é um site recursivo pois é um estudo inicial.
 
-## ☕ Tecnologias utilizadas:
+## ☕ Tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
  - HTML
  - CSS
 

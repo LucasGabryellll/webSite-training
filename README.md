@@ -1,4 +1,5 @@
 # 💻 webSite
+ - Estudo com `html` e `css`
 
 ## ⁉️ Site simples feito para estudo:
  - O intuito aqui foi fazer um site simples com componetes estilizados em css,
